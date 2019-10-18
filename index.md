@@ -194,7 +194,7 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment %} 
+{% comment 
 SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
@@ -209,7 +209,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
-
+%} 
 <hr/>
 
 
